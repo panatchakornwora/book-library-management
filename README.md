@@ -73,7 +73,7 @@ localhost:5432
 
 ---
 
-## 1.1️⃣ Docker Compose
+## 2️⃣ Docker Compose
 ถ้าต้องการรันทั้งระบบด้วย Docker (backend + frontend + postgres + redis):
 
 ```bash
@@ -105,7 +105,7 @@ http://localhost:3001
 
 ---
 
-## 2️⃣ Backend Setup (NestJS)
+## 3️⃣ Backend Setup (NestJS)
 
 ถ้าต้องการรัน backend ในเครื่อง (ไม่ใช้ Docker) ให้ทำตามขั้นตอนนี้
 
@@ -170,7 +170,7 @@ http://localhost:3001/docs
 
 ---
 
-## 3️⃣ Frontend Setup (Next.js)
+## 4️⃣ Frontend Setup (Next.js)
 
 เปิด terminal ใหม่ แล้วเข้าโฟลเดอร์ frontend
 
@@ -211,7 +211,7 @@ http://localhost:3000
 
 ---
 
-## 4️⃣ Test Account (Seed Data)
+## 5️⃣ Test Account (Seed Data)
 
 ระบบมีข้อมูลตัวอย่างสำหรับทดสอบการใช้งาน role ADMIN, LIBRARIAN
 Remark: MEMBER สามารถสร่้างได้จาก ADMIN
@@ -228,7 +228,7 @@ Password: password123
 
 ---
 
-## 5️⃣ Useful URLs (Local)
+## 6️⃣ Useful URLs (Local)
 
 | Service       | URL |
 |--------------|-----|
@@ -238,7 +238,7 @@ Password: password123
 
 ---
 
-## 6️⃣ Notes
+## 7️⃣ Notes
 - ระบบรองรับหลายภาษา (TH / EN): `/th/login`, `/en/login`
 - Authentication ใช้ JWT (Bearer Token)
 - Swagger ไม่แสดงข้อมูลที่เป็น sensitive เช่น `password` หรือ `passwordHash`
@@ -246,7 +246,7 @@ Password: password123
 
 ---
 
-## 7️⃣ CI / Quality
+## 8️⃣ CI / Quality
 - มีโครง GitHub Actions สำหรับ:
   - install dependencies
   - lint (frontend)
@@ -256,7 +256,7 @@ Password: password123
 
 ---
 
-## Scripts
+## 9️⃣ Scripts
 
 Backend:
 ```bash
@@ -271,7 +271,7 @@ npm run dev
 
 ---
 
-## Troubleshooting
+## 🔟 Troubleshooting
 
 - หากเจอ `P1001` ให้ตรวจสอบว่า PostgreSQL รันอยู่และค่าใน `.env` ถูกต้อง
 - หาก `docker compose up` เตือนเรื่อง env ให้สร้าง `.env` จาก `.env.example` ก่อน
