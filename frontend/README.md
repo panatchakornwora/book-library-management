@@ -4,7 +4,7 @@ Frontend (Next.js) สำหรับระบบ Book Library Management
 
 ## Prerequisites
 
-- ใช้ Node.js เวอร์ชันตาม `.nvmrc` (ที่ root)
+- ใช้ Node.js เวอร์ชันตาม `.nvmrc` (Node.js 24 ที่ root)
 - ต้องมี backend รันอยู่ หากจะใช้งานจริง
 
 ## Quick Start
