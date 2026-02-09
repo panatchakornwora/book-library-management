@@ -115,7 +115,7 @@ http://localhost:3001
 cd backend
 ```
 
-### 2.1 Environment Variables
+### 3.1 Environment Variables
 สร้างไฟล์ `.env` จากไฟล์ตัวอย่าง
 
 ```bash
@@ -138,14 +138,14 @@ PUBLIC_BASE_URL=http://localhost:3001
 
 ---
 
-### 2.2 Install Dependencies
+### 3.2 Install Dependencies
 ```bash
 npm install
 ```
 
 ---
 
-### 2.3 Prisma: Migrate & Seed Database
+### 3.3 Prisma: Migrate & Seed Database
 ```bash
 npx prisma migrate dev
 npx prisma db seed
@@ -153,7 +153,7 @@ npx prisma db seed
 
 ---
 
-### 2.4 Start Backend Server
+### 3.4 Start Backend Server
 ```bash
 npm run start:dev
 ```
@@ -178,7 +178,7 @@ http://localhost:3001/docs
 cd frontend
 ```
 
-### 3.1 Environment Variables
+### 4.1 Environment Variables
 สร้างไฟล์ `.env.local` จากไฟล์ตัวอย่าง
 
 ```bash
@@ -192,14 +192,14 @@ NEXT_PUBLIC_API_URL=http://localhost:3001
 
 ---
 
-### 3.2 Install Dependencies
+### 4.2 Install Dependencies
 ```bash
 npm install
 ```
 
 ---
 
-### 3.3 Start Frontend Server
+### 4.3 Start Frontend Server
 ```bash
 npm run dev
 ```
